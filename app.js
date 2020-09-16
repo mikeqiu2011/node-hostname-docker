@@ -1,7 +1,7 @@
 const http = require("http");
 const os = require("os");
 const hostname = os.hostname();
-const version = "v1";
+const version = "v2";
 const msg = version + " from: " + hostname;
 
 const server = http.createServer((req, res) => {
